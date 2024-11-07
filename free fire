@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Vídeos - Free Fire</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #FF5722;
+        }
+        .video-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        iframe {
+            width: 80%;
+            height: 400px;
+            border: none;
+            margin-bottom: 10px;
+        }
+        .video-title {
+            font-size: 20px;
+            color: #333;
+        }
+        .description {
+            margin: 0 10%;
+            text-align: center;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Catálogo de Vídeos - Free Fire</h1>
+
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/yU-uLqaggvs" allowfullscreen></iframe>
+        <div class="video-title">Título: Como Aprender a Jogar Free Fire</div>
+        <p class="description">Neste vídeo, você aprenderá estratégias e dicas para se tornar um jogador melhor no Free Fire.</p>
+    </div>
+
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/-li2jpud14c" allowfullscreen></iframe>
+        <div class="video-title">Título: Os Melhores Momentos de Free Fire</div>
+        <p class="description">Assista a compilações dos melhores momentos e jogadas insanas do Free Fire!</p>
+    </div>
+
+</body>
+</html>
